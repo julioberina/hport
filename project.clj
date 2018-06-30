@@ -14,6 +14,8 @@
                  [clj-logging-config "1.9.12"]
                  [compojure "1.6.1"]
                  [environ "1.1.0"]
+                 [secretary "1.2.3"]
+                 [venantius/accountant "0.2.4"]
                  [com.stuartsierra/component "0.3.2"]
                  [org.danielsz/system "0.4.1"]
                  [org.clojure/tools.namespace "0.2.11"]

@@ -1,3 +1,159 @@
-h1 {
-  text-decoration: underline;
+/* some style */
+
+body {
+  background-color: #101010;
 }
+
+/* Begin navbar styling */
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.navbar li a:hover {
+  color: #333399;
+  cursor: pointer;
+}
+
+/* End navbar styling */
+
+#menu {
+  list-style-type: none;
+  display: block;
+  margin-left: -30px;
+}
+
+#menu a {
+  color: white;
+  font-family: 'Oswald';
+  font-size: 16pt;
+}
+
+#menu a:hover {
+  color: #333399;
+}
+
+#menu li {
+  padding: 5px;
+}
+
+/* Begin home content styling */
+
+.home-content {
+  font-family: Verdana;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+}
+
+.home-content h1 {
+  font-size: 48pt;
+}
+
+.home-content p {
+  font-size: 24pt;
+}
+
+.about-content {
+  margin-top: 100px;
+  text-align: left;
+  max-width: 800px;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-content h1 {
+  font-family: Verdana;
+  font-size: 48pt;
+}
+
+.about-content p {
+  font-family: sans-serif;
+  font-size: 18pt;
+}
+
+.contact-content {
+  margin-top: 100px;
+  text-align: left;
+  max-width: 800px;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-content h1 {
+  font-family: Verdana;
+  font-size: 48pt;
+}
+
+.contact-content p {
+  font-family: sans-serif;
+  font-size: 18pt;
+}
+
+.contact-content a {
+  font-family: sans-serif;
+  font-size: 18pt;
+  cursor: pointer;
+  color: white;
+}
+
+.contact-content a:hover {
+  color: #333399;
+}
+
+.projects-content {
+  margin-top: 100px;
+  text-align: left;
+  max-width: 800px;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects-content h1 {
+  font-family: Verdana;
+  font-size: 48pt;
+}
+
+.projects-content p {
+  font-family: sans-serif;
+  font-size: 18pt;
+}
+
+.projects-content a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.projects-content a:hover {
+  color: #333399;
+}
+
+.projects-content h2 {
+  font-family: Arial;
+  color: #EE3333;
+  font-size: 24pt;
+}
+
+/* End home content styling */
