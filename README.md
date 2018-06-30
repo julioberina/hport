@@ -1,5 +1,9 @@
 # hport
 
+This project is nothing special. It's just a Heroku-deployable version of my
+actual Clojure-coded portfolio. My original portfolio can be found [here](https://github.com/julioberina/portfolio).
+The rest of the instructions below are for cloning and running the code on
+your local machine
 
 ## Development
 
@@ -14,7 +18,7 @@ In the REPL, type
 ```
 
 The call to `(go)` starts the Figwheel server at port 3449, which takes care of
-live reloading ClojureScript code and CSS, and the app server at port 10555 
+live reloading ClojureScript code and CSS, and the app server at port 10555
 which forwards requests to the http-handler you define.
 
 Running `(cljs-repl)` starts the Figwheel ClojureScript REPL. Evaluating
@@ -131,13 +135,6 @@ lein with-profile -dev,+production uberjar && foreman start
 
 Now your app is running at
 [http://localhost:5000](http://localhost:5000) in production mode.
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
 
 ## Chestnut
 
