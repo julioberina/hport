@@ -1,4 +1,4 @@
-(ns hport.application
+(ns hport.server
   (:gen-class)
   (:require [com.stuartsierra.component :as component]
             [hport.components.server-info :refer [server-info]]
