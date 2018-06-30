@@ -108,13 +108,13 @@
     [:li [:a {:href "/contact"} "Contact"]]
     [:hr]
     [:li
-     [:a {:class "fa fa-github fa-5x" :href "https://github.com/julioberina"}
+     [:a {:class "&#xf09b;" :href "https://github.com/julioberina"}
       "  Github"]]
     [:li
-     [:a {:class "fa fa-linkedin fa-5x" :href "https://linkedin.com/in/julio-berina"}
+     [:a {:class "&#xf0e1;" :href "https://linkedin.com/in/julio-berina"}
       "  LinkedIn"]]
     [:li
-     [:a {:class "fa fa-instagram fa-5x" :href "https://instagram.com/julioberina"}
+     [:a {:class "&#xf16d;" :href "https://instagram.com/julioberina"}
       "  Instagram"]]]])
 
 ;; Begin Application routing
