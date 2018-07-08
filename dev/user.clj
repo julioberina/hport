@@ -1,5 +1,5 @@
 (ns user
-  (:require [hport.application]
+  (:require [hport.server]
             [com.stuartsierra.component :as component]
             [figwheel-sidecar.config :as fw-config]
             [figwheel-sidecar.system :as fw-sys]
@@ -12,7 +12,7 @@
 
 (defn dev-system []
   (let [config (config)]
-    (assoc (hport.application/app-system config)
+    (assoc (hport.server/app-system config)
            :middleware (new-middleware
                         {:middleware (into [[wrap-file "dev-target/public"]]
                                            (:middleware config))})
